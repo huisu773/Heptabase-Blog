@@ -1,13 +1,11 @@
 const CONFIG = {
     'api_url': '', // 废弃
-    'ga': 'G-6C4Z9NHW8J',
-    'whiteboard_id': 'd4cc3728297609add1a00aab108e90c4e57a1c378cfc2307c251745bf7d2a884',
-    'title': '数字花园🌱', // 站点标题
+    'ga': 'G-XXXXXX',
+    'whiteboard_id': '82f86409b589ee493fb13337a699cf1abaa705db74f059fd9fecdfde34d0ee13',
+    'title': '绘素的数字花园', // 站点标题
     'pages': {
-        'Articles': '9f31ea21-90b9-4523-b8d5-cb33b7a01bda',
-        'Projects': '3dd9a603-a7f3-44e9-a6d7-cd2ebda08952',
-        // 'Activity':'activity', // 花园活跃状态页面
-        'About': '3a433c0b-e2e1-4722-8a88-a17e9aa2b927'
+        'Activity': 'activity', // 花园活跃状态页面
+        'About': '652c855a-fa49-4624-97ea-634b9bcf3b2a'
     }
 }
 
