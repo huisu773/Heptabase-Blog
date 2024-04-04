@@ -5,26 +5,16 @@ import { useLocation } from "react-router";
 import { format } from 'date-fns'
 
 import '../index.css'
-import 'github-markdown-css'
+// import 'github-markdown-css'
 import Loading from '../components/Loading'
 
 // import "highlight.js/styles/github.css";
-import 'highlight.js/styles/dark.css';
+// import 'highlight.js/styles/dark.css';
 // import 'highlight.js/styles/hopscotch.css'; 
 // import hljs from "highlight.js";
 
 import { ShareAltOutlined } from '@ant-design/icons';
 import { Button, message, Tooltip } from 'antd';
-import Clipboard from 'clipboard';
-
-
-
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
-import rehypeRaw from 'rehype-raw'
-
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
-import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 
 // 文章正文

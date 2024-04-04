@@ -10,6 +10,7 @@ import Loading from '../components/Loading'
 import { NextUIProvider } from "@nextui-org/system";
 
 import '../index.css'
+// import '../style.css'
 import 'github-markdown-css'
 import 'antd/dist/reset.css';
 
@@ -88,7 +89,6 @@ function Post(props) {
             HEPTABASE_DATA = heptabase_blog_data
             // 默认获取名为 about 的卡片作为首页，若无则获取配置中首个卡片作为首页
             HOME_DATA = res['pages']['about'] || res['pages']['firstPage']
-
             // 渲染 URL、数据
             herfToData()
 
@@ -695,7 +695,9 @@ function Post(props) {
     if (HEPTABASE_DATA === null || cardList.length === 0) {
         return (<div>
             {/* <Nav /> */}
-            <div className='notes'>
+            <div className='notes' style={{
+                padding:'1rem'
+            }}>
                 <Loading />
             </div>
             {/* <Footer /> */}
